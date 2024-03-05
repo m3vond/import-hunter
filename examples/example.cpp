@@ -1,4 +1,4 @@
-#include "krnl_import.h"
+#include "import_hunter.h"
 
 NTSTATUS DriverEntry( PDRIVER_OBJECT objcet, PUNICODE_STRING registry )
 {
