@@ -257,7 +257,7 @@ namespace import_hunter
 
             if ( export_hash == export_entry_hash )
             {
-                return reinterpret_cast< ULONG64 >( kernel_base + address_of_functions[ address_of_names_ordinals[ i ] ] );
+                return reinterpret_cast< T >( kernel_base + address_of_functions[ address_of_names_ordinals[ i ] ] );
             }
         }
         return 0ULL;
